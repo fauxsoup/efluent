@@ -1,0 +1,12 @@
+{application, efluent,
+ [
+  {description, "0.1.0"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { efluent_app, []}},
+  {env, []}
+ ]}.
